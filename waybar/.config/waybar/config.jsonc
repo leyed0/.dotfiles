@@ -23,6 +23,13 @@
         "tray",
         "custom/power"
     ],
+    "hyprland/window2": {
+	"format": "{}",
+	"rewrite": {
+		"(.*) - Mozilla Firefox": "🌎 $1",
+		"(.*) - zsh": "> [$1]"
+	    }
+    },
     "hyprland/workspaces": {
         "format": "{name}",
         "on-scroll-up": "hyprctl dispatch workspace e+1",

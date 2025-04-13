@@ -1,0 +1,49 @@
+[Development]
+AutoCheckAccelerators=false
+
+[General]
+BrowserApplication[$e]=firefox.desktop
+XftAntialias=true
+XftHintStyle=hintmedium
+XftSubPixel=none
+desktopFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+fixed=Monospace,10,-1,5,50,0,0,0,0,0
+font=Sans Serif,10,-1,5,50,0,0,0,0,0
+menuFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Sans Serif,8,-1,5,50,0,0,0,0,0
+toolBarFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+widgetStyle=breeze
+
+[Icons]
+Theme=breeze
+
+[K3Spell]
+K3Spell_Client=4
+K3Spell_Encoding=11
+
+[KDE]
+ShowDeleteCommand=false
+SingleClick=false
+
+[KSpell]
+KSpell_Client=4
+KSpell_Encoding=11
+
+[Paths]
+Desktop[$e]=$(xdg-user-dir DESKTOP)
+Documents[$e]=$(xdg-user-dir DOCUMENTS)
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[Toolbar style]
+Highlighting=true
+IconText=IconOnly
+TransparentMoving=true
+
+[WM]
+activeFont=Sans Serif,9,-1,5,50,0,0,0,0,0
+
+[Colors:View]
+BackgroundNormal=#31363B
