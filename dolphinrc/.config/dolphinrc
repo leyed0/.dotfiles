@@ -1,8 +1,10 @@
-[ContentDisplay]
-UseShortRelativeDates=false
-
 [General]
 Version=202
+ViewPropsTimestamp=2025,9,3,22,6,13.603
+
+
+[ContentDisplay]
+UseShortRelativeDates=false
 ViewPropsTimestamp=2025,3,22,7,52,27.87
 
 [KFileDialog Settings]
