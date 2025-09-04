@@ -17,21 +17,18 @@ yay -S google-chrome
 
 sudo pacman -S gcc gdb clang cmake cuda boost python python-pip nodejs-lts-jod npm yarn
 
-sudo pacman -S obsidian hyprshot xdg-users-dirs pavucontrol
+sudo pacman -S obsidian hyprshot xdg-users-dirs pavucontrol swaync libnotify hypridle sbctl
 
 xdg-users-dirs
 
-sudo pacman -S ttf-dejavu ttf-freefont ttf-liberation ttf-droid terminus-font noto-fonts noto-fonts-emoji ttf-ubuntu-font-family ttf-roboto ttf-roboto-mono ttf-ibm-plex ttf-font-aweseme otf-font-awsome
+sudo pacman -S ttf-dejavu ttf-freefont ttf-liberation ttf-droid terminus-font noto-fonts noto-fonts-emoji ttf-ubuntu-font-family ttf-roboto ttf-roboto-mono ttf-ibm-plex ttf-font-awesome otf-font-awesome
 
 
+systemctl --user enable --now hyprpolkitagent.service
+systemctl --user enable --now hyprpaper.service
+systemctl --user enable --now hypridle.service
+systemctl --user enable --now swaync.service 
 
-
-
-
-
-htprlock e hypridle
-
-swaync libnotify
 
 "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace,  'Font Awesome 6 Brands','Font Awesome 6 Brands Regular', 'Font Awesome 6 Free','Font Awesome 6 Free Regular', 'Font Awesome 6 Free','Font Awesome 6 Free Solid',  'Font Awesome v4 Compatibility','Font Awesome v4 Compatibility Regular', 'Arimo Nerd Font' , 'Arimo Nerd Font Propo', 'MesloLGLDZ Nerd Font','MesloLGLDZ Nerd Font Mono', 'MesloLGLDZ Nerd Font Propo', 'MesloLGL Nerd Font', 'MesloLGL Nerd Font Mono', 'MesloLGL Nerd Font Propo', 'MesloLGMDZ Nerd Font', 'MesloLGMDZ Nerd Font Mono', 'MesloLGMDZ Nerd Font Propo', 'MesloLGM Nerd Font', 'MesloLGM Nerd Font Mono', 'MesloLGM Nerd Font Propo', 'MesloLGSDZ Nerd Font', 'MesloLGSDZ Nerd Font Mono', 'MesloLGSDZ Nerd Font Propo', 'MesloLGS Nerd Font', 'MesloLGS Nerd Font Mono', 'MesloLGS Nerd Font Propo'"
 
