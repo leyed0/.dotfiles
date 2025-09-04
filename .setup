@@ -17,7 +17,7 @@ yay -S google-chrome
 
 sudo pacman -S gcc gdb clang cmake cuda boost python python-pip nodejs-lts-jod npm yarn
 
-sudo pacman -S obsidian hyprshot xdg-users-dirs pavucontrol swaync libnotify hypridle sbctl
+sudo pacman -S obsidian hyprshot xdg-users-dirs pavucontrol swaync libnotify hypridle sbctl stow
 
 xdg-users-dirs
 
